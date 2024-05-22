@@ -1,0 +1,68 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ff1414;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  background-color: #ffffffcc;
+  padding: 2%;
+  border-radius: 2%;
+  box-shadow: 0 0 5% rgba(0, 0, 0, 0.1);
+  display: block;
+  align-content: center;
+  align-items: center;
+}
+
+.registro-form {
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-top: 2%;
+  color: #333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border: 0.1% solid #ddd;
+  border-radius: 1%;
+}
+
+.boton {
+  background-color: #ff0000c5;
+  color: #fff;
+  padding: 1.5% 2%;
+  border: none;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #ff0000;
+}
+
+button {
+  background-color: #ff0000c5;
+  color: #fff;
+  padding: 1.5% 10%;
+  border: none;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff0000;
+}

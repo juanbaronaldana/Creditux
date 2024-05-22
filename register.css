@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ff1414;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    background-color: #ffffffcc;
+    padding: 7%;
+    border-radius: 2%;
+    box-shadow: 0 0 5% rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro-form {
+    width: 100%;
+}
+
+
+label {
+    display: block;
+    margin-top: 8%;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    border: 0.1% solid #ddd;
+    border-radius: 1%;
+}
+
+button {
+    background-color: #ff0000c5;
+    color: #fff;
+    padding: 9% 10%;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
